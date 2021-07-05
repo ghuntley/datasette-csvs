@@ -4,9 +4,9 @@ ports:
 
 tasks:
   - init: |
-      bash ./install.sh
+      ./install.sh
     command: |
-      bash ./start.sh
+      ./start.sh
 
 vscode:
   extensions:
