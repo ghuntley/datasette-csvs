@@ -1,0 +1,13 @@
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+tasks:
+  - init: |
+      bash ./install.sh
+    command: |
+      bash ./start.sh
+
+vscode:
+  extensions:
+    - ms-python.python
